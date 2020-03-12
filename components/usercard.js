@@ -1,11 +1,11 @@
 import React from "react";
 import {Card, Avatar} from "antd";
-import HeartTwoTone from "@ant-design/icons"
+import {HeartTwoTone} from "@ant-design/icons"
 
 class UserCard extends React.Component{
-    constructor(props){
-        super(props)
-    }
+    //constructor(props){
+    //    super(props)
+    //}
     render(){
         const rst=this.props.userObj;
         const likeSign=this.props.isLike;

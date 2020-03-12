@@ -1,7 +1,7 @@
 import React from "react"
 import UserCard from "../components/usercard"
 import FavorList from "../components/favorlist"
-import {Tabs} from "antd";
+import {Row, Col, Tabs} from "antd";
 
 class MainPage extends React.Component{
     constructor(){
@@ -15,6 +15,7 @@ class MainPage extends React.Component{
         this.setFavorite=this.setFavorite.bind(this)
         this.navPrev=this.navPrev.bind(this)
         this.navNext=this.navNext.bind(this)
+        this.cancelFavor=this.cancelFavorite.bind(this)
     }
     componentDidMount(){
         this.loadRandomUser()
@@ -62,32 +63,39 @@ class MainPage extends React.Component{
         const currentUser=this.state.user;
         const pos=this.state.favorArr.indexOf(currentUser);
         if(pos<0){
-            let newArry=this.state.favorArr.concat(this.state.user);
+            let newArray=this.state.favorArr.concat(this.state.user);
             this.setState({
-                favorArr:newArry
+                favorArr:newArray
             })
         }else{
-            let newArry=this.state.favorArr.filter((item)=> item!==currentUser)
+            let newArray=this.state.favorArr.filter((item)=> item!==currentUser)
             this.setState({
-                favorArr:newArry
+                favorArr:newArray
             })
         }
-        console.log(this.state.favorArr)
+    }
+    cancelFavorite(targetObj){
+        let newArray=this.state.favorArr.filter((item) => item!==targetObj)
+        this.setState({
+            favorArr:newArray
+        })
     }
     render(){
         const inFavorList=this.state.favorArr.includes(this.state.user);
         const {TabPane} = Tabs;
         return(
-            <div>
-                <Tabs defaultActiveKey="1">
-                    <TabPane tab="Seek Friend" key="1">
-                        <UserCard userObj={this.state.user} isLike={inFavorList} onFavor={this.setFavorite} onPrev={this.navPrev} onNext={this.navNext} />
-                    </TabPane>
-                    <TabPane tab="My Favor" key="2">
-                        <FavorList list={this.state.favorArr}/>
-                    </TabPane>
-                </Tabs>
-            </div>
+            <Row>
+                <Col span={12} offset={6}>
+                    <Tabs defaultActiveKey="1">
+                        <TabPane tab="Seek Friend" key="1">
+                            <UserCard userObj={this.state.user} isLike={inFavorList} onFavor={this.setFavorite} onPrev={this.navPrev} onNext={this.navNext} />
+                        </TabPane>
+                        <TabPane tab="My Favor" key="2">
+                            <FavorList list={this.state.favorArr} onCancelFav={this.cancelFavor}/>
+                        </TabPane>
+                    </Tabs>
+                </Col>
+            </Row>
         )
     }
 }
