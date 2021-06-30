@@ -14,9 +14,9 @@ npm install
 
 ## Branch
 
-+CodeTest
++ CodeTest
 > The code testing when I apply the frontend position
-+Demo
++ Demo
 > Include 2 part Backend and Frontend, this project is used to do a demo site
 
 ## Contributing
