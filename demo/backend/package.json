@@ -1,10 +1,15 @@
 {
-  "name": "backend",
-  "version": "0.0.0",
+  "name": "demo_backend",
+  "version": "1.0.0",
+  "description": "",
   "private": true,
+  "main": "index.js",
   "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon ./bin/www"
   },
+  "author": "",
+  "license": "ISC",
   "dependencies": {
     "@google-cloud/bigquery":"^5.5.0",
     "@google-cloud/storage": "^5.8.3",
