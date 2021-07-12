@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "machine-learning-148914",
+  "private_key_id": "c2142bb8a2670dd1d39ab40a29f2ced71c4a7379",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDb1TB3egzEESVT\nVJ1t4vt8XwRlGmHAZdgZc95IPdj1vj8VGMYHBdoOVG/MBjIvwmwJfugButXobwPt\nCL4E+mOEA2PTJx7ysGzP479tsGZzNzwATydNadpxfchna0RQ3eRl7eMflTrj0IqI\nU94JcSSt5qYhMIuswcSOyW2blFnZ7nxgy4xlLtvnch/4jomGJR1EdLzN4pUoiFQu\nQB0izEoWV8CmhSe1BhFFmvfknhfkAb965VnCUZc6qyXq7m3i3nqaltaENmp3J9P9\nB+Yv9Ma/2Iu86+ZCLVXUTkXXUmeP+OPEk0BsNuSdYDaxGpZrKIH45GmYK/4HFpEP\nfkw1RPLVAgMBAAECggEAaqynGjMVoscXL7qtsjclBhMtlMoaiTxigudhA/lPIOCy\nx8//uES0raN3pK+VBuv3dRwqBTzetC263/kQDGZciCEE/d/L+sR16OOBbv7cmChD\na3r9fWlSYSRCbTz2J6+lN3kab6cArq/xqXnZEwfeXqzADPb7sFdOxGMmVwrEFyXm\neM4yf1w2gqGUX0N66QaPOUcY1WhxEy8HP1gmYwwyVNBn8/5WCJiEpajv5316q/8i\n9AH3U6bquKPSTLlAVgTgjk04uO8XQj+s1aFcOU1LXbRlaFS1LsmzS4l/+o8Tr58R\nAYJ3bLMNSmuNl69Md351XvZv0jJPYpJyfCrxzXsUuQKBgQD8DPzCnjpqhFwCi0UF\nLoJHDX/iWNzz1klhPFlPXPfJer134WjjV8ef5Vj52SqZhz/aFUnS6ucC7nxLFa7w\nMeetdRrZFYmOAGgsLyIyKvx8Rid192sPAy/3o9up/OqHgcVzipIxJjiAfuwztHQv\nTeMxHhl1/oArnXgZM1Hbrnv4ZwKBgQDfRviSgsBMHBH8QUGDmQE6ENiY/fR/DFcs\n6qlerP/xsxHqEZ0MM4Z+qCE7r80N8WP+11gK4KOyneJbpEKvr7sRMKSmPE0RIYq+\nUTAmJO52+5XaBRyoJIPMjunxbBEMSqYgg0L65eQqNn/L5nED5vF2Sno0p1rT/9Rs\n9KZMPAslYwKBgAo3+JNnWNTyssxDmzO/k/aPfIzPr32PRYBUswY9raoUeNQAZoE5\nENXRtY7DmC+LRTJxRIHxlhYPVyiwI1yHmW313nXIosAIEjEgZBGGnp/nNDhbJJMC\nPRKcKQ62O0ftIfUyPAUUGJxVCPx7p243iSt3ne6jt8yM4M6cvwfaBhqnAoGBAKJl\naViO1zTEWeSCxhbkS3sjU5b7Z0CdBi76QtREuiffGdGInBSKyXEH8pwKAvf4McXi\ndPv8ZbP9l+0VrRdBlqsrGSZ7x4YFQneob3/e7r8Fv/mCLFSzslUvQULCWif5h5kw\nP6BjYy+80fjJFDxFViy2gOoZKzv04FmbG/Vo2qaHAoGAc6jlf2yDGsQRYrpZSbwz\noxHYHeOwyHpxxc+CUtzmaavmzgO7SDaSk/zko7jzIogDvXsg39/BrRYtgQ92ybzN\nkHUPcqO5LvKtMN8LMccaWjg1bqjj3FA3tfEJUe+BR0yWTBmMhbwcymhyJGAsN07K\nCuT3VuW231/MB5AaBNWy0QM=\n-----END PRIVATE KEY-----\n",
+  "client_email": "video-uploader-1@machine-learning-148914.iam.gserviceaccount.com",
+  "client_id": "111732869635810920209",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/video-uploader-1%40machine-learning-148914.iam.gserviceaccount.com"
+}

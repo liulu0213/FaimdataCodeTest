@@ -1,0 +1,52 @@
+{
+   "permission":{
+      "read":true,
+      "add":true,
+      "delete":true,
+      "update":true
+   },
+   "message":{
+      "Faimdata Area":{
+         "code":"Faimdata",
+         "data":[
+            {
+               "id":4,
+         "code":"Faimdata",
+               "name":"Faimdata",
+               "description":"",
+               "created_time":"2021-04-19T14:03:47.000Z",
+               "updated_time":"2021-04-19T14:03:47.000Z",
+               "username":"lu@faimdata.com",
+               "user_id":88,
+               "crane_id":100,
+               "displayName":"Front Loader #28"
+            },
+            {
+               "id":4,
+         "code":"Faimdata",
+               "name":"Faimdata",
+               "description":"",
+               "created_time":"2021-04-19T14:03:47.000Z",
+               "updated_time":"2021-04-19T14:03:47.000Z",
+               "username":"lu@faimdata.com",
+               "user_id":88,
+               "crane_id":170,
+               "displayName":"RTG #3"
+            },
+            {
+               "id":3,
+         "code":"Faimdata",
+               "name":"Faimdata",
+               "description":"",
+               "created_time":"2020-12-11T21:18:47.791Z",
+               "updated_time":"2020-12-11T21:18:47.873Z",
+               "username":"lu@faimdata.com",
+               "user_id":88,
+               "crane_id":3,
+               "displayName":"Reach Stacker #82"
+            }
+        ],
+         "displayName":"Faimdata Area"
+      }
+  }
+}
